@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap');
+
+@keyframes gradient {
+    0% {
+        background-size: 100%;
+    }
+    50% {
+        background-size: 200%;
+    }
+    100% {
+        background-size: 100%;
+    }
+}
+
+
+body {
+    background: linear-gradient(-45deg, rgb(84, 0, 240), rgb(255, 46, 133), rgb(255, 238, 0));
+    font-family: 'Open Sans', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+    margin: 0;
+    animation: gradient 10s ease infinite;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.time {
+    margin: 0;
+}
+
+.count {
+    font-size: 15em;
+    font-weight: 2000;
+    margin: 0;
+    text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.363);
+}
+.small {
+    color: rgb(182, 182, 182);
+    font-weight: 1000;
+    font-size: 2em;
+}
+
+.title {
+    font-size: 10em;
+    color: white;
+}
+
+.fireworks {
+    mix-blend-mode: screen;
+}
