@@ -40,13 +40,13 @@ body {
 }
 
 .count {
-    font-size: 15em;
+    font-size: 15vw;
     font-weight: 2000;
     margin: 0;
     text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.363);
 }
 .small {
-    color: rgb(182, 182, 182);
+    color: rgb(219, 219, 219);
     font-weight: 1000;
     font-size: 2em;
 }
